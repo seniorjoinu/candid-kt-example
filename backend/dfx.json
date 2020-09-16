@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "phonebook": {
+      "frontend": {
+        "entrypoint": "src/phonebook/public/index.jsx"
+      },
+      "main": "src/phonebook/main.mo"
+    }
+  },
+  "defaults": {
+    "start": {
+      "address": "127.0.0.1",
+      "port": 8000,
+      "serve_root": "canisters/phonebook/assets"
+    }
+  }
+}

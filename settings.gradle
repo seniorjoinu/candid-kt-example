@@ -1,0 +1,2 @@
+rootProject.name = "candid-kt-example"
+include ':app'
